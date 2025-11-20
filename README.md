@@ -14,7 +14,15 @@ More broadly the NCTS is supported by the Australian Digital Health Agency with 
 
 ## Basic Components Introduction
 ### SNOMED CT (a clinical terminology)
-TBC
+SNOMED CT:
+
+Is the most comprehensive and precise, multilingual health terminology in the world.
+Has been, and continues to be, developed collaboratively to ensure it meets the diverse needs and expectations of the worldwide medical profession.
+Assists with the electronic exchange of clinical health information.
+Can be mapped to other coding systems, such as ICD-9 and ICD-10, which helps facilitate semantic interoperability.
+Is accepted as a common global language for health terms in over 50 countries.
+Is a resource with extensive, scientifically validated clinical content.
+
 Learn more about SNOMED CT [on this subpage](snomed/info.md)
 
 ### FHIR (a [data] standard)
