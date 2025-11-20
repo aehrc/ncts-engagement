@@ -15,6 +15,7 @@ More broadly the NCTS is supported by the Australian Digital Health Agency with 
 ## Basic Components Introduction
 ### SNOMED CT (a clinical terminology)
 TBC
+Learn more about SNOMED CT [on this subpage](snomed/info.md)
 
 ### FHIR (a [data] standard)
 TBC
