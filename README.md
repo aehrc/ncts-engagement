@@ -45,3 +45,17 @@ TBC
 ## Having a closer look 
 ### Hosting your own copy of SNOMED CT 
 Syndication, Docker install, etc 
+
+
+Working Notes 
+NCTS website does have some great references already. (no need for me to invent new; reiterate the existing message works; create where needed only) 
+
+Benefits of SCT: https://www.healthterminologies.gov.au/understanding-clinical-terminology-landing/benefits/
+SI Benefits: https://www.snomed.org/what-is-snomed-ct 
+List of who's known to be using SCT-AU already: https://www.healthterminologies.gov.au/understanding-clinical-terminology-landing/whos-using-snomed-ct-au/ 
+Implementation guide (high-level): https://www.healthterminologies.gov.au/implementing-in-software/getting-started/implementation-whats-involved/ 
+Resources/materials: https://www.healthterminologies.gov.au/document-library/ 
+Other code set relationships (not as relevant here): https://www.healthterminologies.gov.au/understanding-clinical-terminology-landing/the-big-picture-snomed-and-other-code-sets/ 
+
+SEARCH through SP/Slack/Teams for other mentions of Benefits / Use Cases / Case Studies / User Stories.
+Plus general web / articles. 
