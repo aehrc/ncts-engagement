@@ -8,11 +8,11 @@ SNOMED CT delivers value across the healthcare ecosystem by making clinical in
 
 | Stakeholder              | Key Benefits                                                                 |
 |--------------------------|-------------------------------------------------------------------------------|
-| **Healthcare providers** | Informed decision-making, collaboration, real-time decision support, reduced duplication, quality and cost monitoring [1](https://docs.snomed.org/snomed-ct-practical-guides/snomed-ct-starter-guide/2-snomed-ct-benefits)[2](https://www.snomed.org/value-proposition) |
+| **Healthcare providers** | Informed decision-making, collaboration, real-time decision support, reduced duplication, quality and cost monitoring [1](https://docs.snomed.org/snomed-ct-practical-guides/snomed-ct-starter-guide/2-snomed-ct-benefits),[2](https://www.snomed.org/value-proposition) |
 | **Patients**             | Safer, coordinated care; consistent records; accessible and controlled health information [1](https://docs.snomed.org/snomed-ct-practical-guides/snomed-ct-starter-guide/2-snomed-ct-benefits) |
-| **Software vendors**     | Products built on a globally recognized standard; simplified ICD mappings; expanded reach across markets [3](https://docs.snomed.org/snomed-ct-practical-guides/vendor-introduction-to-snomed-ct/2-benefits-to-vendors)[2](https://www.snomed.org/value-proposition) |
-| **Health systems & researchers** | Analytics on population health, clinical research, audit, trend detection, evidence-based care design [1](https://docs.snomed.org/snomed-ct-practical-guides/snomed-ct-starter-guide/2-snomed-ct-benefits)[2](https://www.snomed.org/value-proposition) |
-| **Global interoperability** | Multilingual support and seamless cross-border data exchange for better outcomes worldwide [1](https://docs.snomed.org/snomed-ct-practical-guides/snomed-ct-starter-guide/2-snomed-ct-benefits)[2](https://www.snomed.org/value-proposition) |
+| **Software vendors**     | Products built on a globally recognized standard; simplified ICD mappings; expanded reach across markets [3](https://docs.snomed.org/snomed-ct-practical-guides/vendor-introduction-to-snomed-ct/2-benefits-to-vendors),[2](https://www.snomed.org/value-proposition) |
+| **Health systems & researchers** | Analytics on population health, clinical research, audit, trend detection, evidence-based care design [1](https://docs.snomed.org/snomed-ct-practical-guides/snomed-ct-starter-guide/2-snomed-ct-benefits),[2](https://www.snomed.org/value-proposition) |
+| **Global interoperability** | Multilingual support and seamless cross-border data exchange for better outcomes worldwide [1](https://docs.snomed.org/snomed-ct-practical-guides/snomed-ct-starter-guide/2-snomed-ct-benefits),[2](https://www.snomed.org/value-proposition) |
 
 ---
 
