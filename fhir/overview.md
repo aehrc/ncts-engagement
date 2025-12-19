@@ -1,4 +1,4 @@
-[Go up a level](/snomed/overview.md) | [Go to the table of contents](/README.md)
+[Go up a level](/README.md) | [Go to the table of contents](/README.md)
 
 # FHIR Terminology Basics
 
