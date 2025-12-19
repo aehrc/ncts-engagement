@@ -1,5 +1,5 @@
 
-[Go up a level](/README.md)
+[Go up a level](/snomed/benefits/overview.md) [Go to the table of contents](/README.md)
 # Benefits of SNOMED CT
 
 SNOMED CT delivers value across the healthcare ecosystem by making clinical information **consistent**, **richly structured**, **reusable**, and **globally interoperable**. Key advantages include:
