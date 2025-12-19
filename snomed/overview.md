@@ -1,4 +1,4 @@
-[Go back](/README.md)
+[Go up a level](/README.md)
 
 # Systematized Nomenclature of Medicine – Clinical Terms (SNOMED CT) Additional Information
 
