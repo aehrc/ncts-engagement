@@ -1,16 +1,25 @@
 
 # NCTS Engagement and Education
 
-This site is a practical introduction to the **National Clinical Terminology Service (NCTS)** in Australia, focusing on **SNOMED CT**, **FHIR terminology**, and **terminology servers** (including **Ontoserver**). It includes quickstarts, examples, and references for new starters.
-
-**Support**
-- Project lead: **James Grant** — `james.grant@csiro.au`
-- General NCTS queries: `ncts@digitalhealth.gov.au`
-- NCTS is supported by the **Australian Digital Health Agency (ADHA)** with input from **CSIRO**.
+This site is a practical introduction to the **National Clinical Terminology Service (NCTS)** in Australia, focusing on **SNOMED CT**, **FHIR terminology**, and **terminology servers** (including **Ontoserver**). It includes quickstarts, examples, and references for new starters. Intended to cover the gist of these components you can read this page through in 5 minutes; or use CTRL (or CMD)+F to find keywords of interest.
 
 ---
 
-## 1) What is the NCTS?
+<details>
+<summary>1) Support</summary>
+
+This project is run by **James Grant** — `james.grant@csiro.au`.  
+If you have additional queries or questions, send me an email!
+
+More broadly, the NCTS is supported by the **Australian Digital Health Agency (ADHA)** with input from **CSIRO**.  
+General contact: `ncts@digitalhealth.gov.au`.
+
+</details>
+
+---
+
+<details>
+<summary>2) What is the NCTS?</summary>
 
 The **NCTS** provides national clinical terminology services and content for Australia:
 - **SNOMED CT-AU** (Australian edition and extension).
@@ -20,47 +29,43 @@ The **NCTS** provides national clinical terminology services and content for Aus
 
 See the overview: /snomed/overview.md
 
----
-
-## 2) Core Concepts at a Glance
-
-### SNOMED CT (clinical terminology)
-- A comprehensive, precise, multilingual clinical terminology (concepts, descriptions, relationships).
-- AU edition builds on **SNOMED CT International**, adding Australian-specific content.
-- Designed for **interoperability**, **analytics**, and **decision support**.
-- Works with **ValueSets** to define the terms used in specific clinical contexts.
-
-Learn more: /snomed/snomed-ct.md  
-Benefits overview: /snomed/benefits/general.md
-
-### FHIR (data standard for interoperability)
-- FHIR’s **terminology layer** uses **CodeSystem**, **ValueSet**, and **ConceptMap** resources.
-- Key operations: **`$expand`**, **`$validate-code`**, **`$lookup`** against a terminology server.
-- Bindings connect clinical data elements to terminology content (e.g., SNOMED CT-AU).
-
-Intro page: /fhir/terminology-basics.md
-
-### Terminology Servers (Ontoserver)
-- Provide fast, standards-based access to **SNOMED CT**, **AMT**, and other code systems.
-- Support **ECL** (Expression Constraint Language) and **FHIR** terminology operations.
-- Common use cases: finding concepts, building/expanding **ValueSets**, validating codes.
-
-Start here: /servers/ontoserver.md
+</details>
 
 ---
 
-## 3) Benefits & Use Cases
+<details>
+<summary>3) Core Components Introduction</summary>
+
+### SNOMED CT (a clinical terminology)
+
+SNOMED CT:
+- Is the most comprehensive and precise, multilingual health terminology in the world.
+- Developed collaboratively to meet diverse global medical needs.
+- Assists with the electronic exchange of clinical health information.
+- Can be mapped to other coding systems (ICD-9, ICD-10) for semantic interoperability.
+- Accepted as a common global language for health terms in over 50 countries.
+- Provides extensive, scientifically validated clinical content.
+
+Learn more: /snomed/snomed-ct.md
+
+### FHIR (a [data] standard)
+*TBC*
+
+### The NCTS (an Australian Government service)
+*TBC*
+
+</details>
+
+---
+
+<details>
+<summary>4) Benefits & Use Cases</summary>
 
 High-level: /snomed/benefits/general.md  
-Details: 
-- Providers: /snomed/benefits/benefits-providers.md  
-- Patients: /snomed/benefits/benefits-patients.md  
-- Vendors: /snomed/benefits/benefits-vendors.md  
-- Global: /snomed/benefits/benefits-global.md
-
----
-
-## 4) Getting Started (Hands-on)
+Details:
+- Providers: [/snomed/benefits/benefits-providers.md](/snomed/benefits/benefits-providers.mdtients.md
+- Vendors: [/snomed/benefits/benefits-vendors.md](/snomed/benefmed/benefits/benefits-global.md](/snomed/benefits/benefits
+<summary>5) Getting Started</summary>
 
 **Explore SNOMED CT**
 - Use **Shrimp** to browse concepts, relationships, hierarchies, and AU extension content.  
@@ -71,12 +76,15 @@ Details:
   Quickstart: /quickstarts/postman-ecl.md
 
 **Understand FHIR structures**
-- Learn **CodeSystem**, **ValueSet** (preferred camel case), **ConceptMap**, and bindings.  
-  Tutorial: [/fhir/erminology-basics.md
+- Learn **CodeSystem**, **ValueSet**, **ConceptMap**, and bindings.  
+  Tutorial: /fhir/terminology-basics.md
+
+</details>
 
 ---
 
-## 5) Hosting & Integration
+<details>
+<summary>6) Hosting & Integration</summary>
 
 **Host your own copy of SNOMED CT**
 - **Syndication** to pull releases; **Docker** to run a local **Ontoserver**.
@@ -84,9 +92,12 @@ Details:
 
 Guide: /hosting/ontoserver-docker.md
 
+</details>
+
 ---
 
-## 6) Practical Topics & FAQs
+<details>
+<summary>7) Practical Topics & FAQs</summary>
 
 - **SNOMED CT vs ICD** (terminology vs classification; analytics vs reporting).
 - **ValueSet vs Reference Set** (selection for use vs packaged content/metadata).
@@ -94,26 +105,20 @@ Guide: /hosting/ontoserver-docker.md
 - **Release cadence** (International → AU extension; how updates flow to NCTS).
 - **Licensing & access** (who can use AU content; endpoint access considerations).
 
-FAQs: /guides/faqs.md  
+FAQs: [/guides/faqs.md](/guides/faqs.md)  
 Glossary: /guides/glossary.md
+
+</details>
 
 ---
 
-## 7) References
-Each of the more detailed pages in this structure contain direct links to websites with dedicated information on the topic. The links below will take you to the general homepages of these sites if you'd prefer to start there. 
+<details>
+<summary>8) References</summary>
 
 - SNOMED CT basics and benefits: SNOMED Docs, [Benefits overview](https://docs.snomed.org/snomed-ct-practical-guides/snomed-ct-starter-guide/2-snomed-ct-benefits)  
 - SNOMED International value proposition: [snomed.org/value-proposition](https://www.snomed.org/value-proposition)
 
-<details>
-  <summary>WIP TEST</summary>
-  This is some collapsed text?
 </details>
-<details>
-  <summary>REALLY?</summary>
-  .
-</details>
-
  
 
 <!-- 
