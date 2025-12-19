@@ -65,6 +65,8 @@ High-level: /snomed/benefits/general.md
 Details:
 - Providers: [/snomed/benefits/benefits-providers.md](/snomed/benefits/benefits-providers.mdtients.md
 - Vendors: [/snomed/benefits/benefits-vendors.md](/snomed/benefmed/benefits/benefits-global.md](/snomed/benefits/benefits
+</details>
+<details>
 <summary>5) Getting Started</summary>
 
 **Explore SNOMED CT**
