@@ -14,4 +14,3 @@ Patients benefit by:
 This consistency supports a smoother care journey and better outcomes.
 
 (references: [SNOMED International – Value Proposition](https://www.snomed.org/value-proposition))
-``
