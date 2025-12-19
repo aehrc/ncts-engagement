@@ -24,4 +24,4 @@ SNOMED CT delivers value across the healthcare ecosystem by making clinical in
 
 ---
 
-You can explore the benefits for [Healthcare Providers](./providers), Technology Providers, Patients and Globally in more detail. 
+You can explore the benefits for [Healthcare Providers](./providers.md), [Technology Providers](./vendors.md), [Patients](./patients.md) and [Globally](./global.md) in more detail. 
