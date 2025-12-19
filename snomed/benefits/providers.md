@@ -13,4 +13,4 @@ SNOMED CT helps clinicians deliver safer, smarter care by making health data c
 * Detect emerging health trends early.
 * Collect data once and reuse it for clinical, management, and research purposes.
 
-(references: [SNOMED International – Value Proposition](https://www.snomed.org/value-proposition))
+References: [SNOMED International – Value Proposition](https://www.snomed.org/value-proposition)
