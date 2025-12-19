@@ -1,61 +1,128 @@
 
 # NCTS Engagement and Education
 
-This project contains references, links and quickstarts relating to the early use and learning about the National Clinical Terminology Service (NCTS) and its Products and Offerings. 
+This site is a practical introduction to the **National Clinical Terminology Service (NCTS)** in Australia, focusing on **SNOMED CT**, **FHIR terminology**, and **terminology servers** (including **Ontoserver**). It includes quickstarts, examples, and references for new starters.
 
+**Support**
+- Project lead: **James Grant** — `james.grant@csiro.au`
+- General NCTS queries: `ncts@digitalhealth.gov.au`
+- NCTS is supported by the **Australian Digital Health Agency (ADHA)** with input from **CSIRO**.
 
+---
 
-## Support
+## 1) What is the NCTS?
 
-This project is run by James (email james.grant@csiro.au). If you have additional queries or questions send me an email! 
+The **NCTS** provides national clinical terminology services and content for Australia:
+- **SNOMED CT-AU** (Australian edition and extension).
+- **AMT (Australian Medicines Terminology)** and other curated content.
+- Hosted **terminology services** and **syndication** options for local hosting.
+- Guidance on **FHIR terminology operations** and best-practice use.
 
-More broadly the NCTS is supported by the Australian Digital Health Agency with input from the CSIRO and general contact can be made at ncts@digitalhealth.gov.au. 
+See the overview: /snomed/overview.md
 
+---
 
-## Basic Components Introduction
-### SNOMED CT (a clinical terminology)
-SNOMED CT:
+## 2) Core Concepts at a Glance
 
-Is the most comprehensive and precise, multilingual health terminology in the world.
-Has been, and continues to be, developed collaboratively to ensure it meets the diverse needs and expectations of the worldwide medical profession.
-Assists with the electronic exchange of clinical health information.
-Can be mapped to other coding systems, such as ICD-9 and ICD-10, which helps facilitate semantic interoperability.
-Is accepted as a common global language for health terms in over 50 countries.
-Is a resource with extensive, scientifically validated clinical content.
+### SNOMED CT (clinical terminology)
+- A comprehensive, precise, multilingual clinical terminology (concepts, descriptions, relationships).
+- AU edition builds on **SNOMED CT International**, adding Australian-specific content.
+- Designed for **interoperability**, **analytics**, and **decision support**.
+- Works with **ValueSets** to define the terms used in specific clinical contexts.
 
-Learn more about SNOMED CT [on this subpage](snomed/info.md)
+Learn more: /snomed/snomed-ct.md  
+Benefits overview: /snomed/benefits/general.md
 
-### FHIR (a [data] standard)
-TBC
+### FHIR (data standard for interoperability)
+- FHIR’s **terminology layer** uses **CodeSystem**, **ValueSet**, and **ConceptMap** resources.
+- Key operations: **`$expand`**, **`$validate-code`**, **`$lookup`** against a terminology server.
+- Bindings connect clinical data elements to terminology content (e.g., SNOMED CT-AU).
 
-### The NCTS (an Australian Government service)
-TBC
+Intro page: /fhir/terminology-basics.md
 
-## Getting Started 
-### Look through SNOMED CT 
-Shrimp 
+### Terminology Servers (Ontoserver)
+- Provide fast, standards-based access to **SNOMED CT**, **AMT**, and other code systems.
+- Support **ECL** (Expression Constraint Language) and **FHIR** terminology operations.
+- Common use cases: finding concepts, building/expanding **ValueSets**, validating codes.
 
-### Query the NCTS' SNOMED CT 
-Postman/API calls 
-ECL 
+Start here: /servers/ontoserver.md
 
-### Understanding the FHIR structures 
-TBC 
+---
 
-## Having a closer look 
-### Hosting your own copy of SNOMED CT 
-Syndication, Docker install, etc 
+## 3) Benefits & Use Cases
 
+High-level: /snomed/benefits/general.md  
+Details: 
+- Providers: /snomed/benefits/benefits-providers.md  
+- Patients: /snomed/benefits/benefits-patients.md  
+- Vendors: /snomed/benefits/benefits-vendors.md  
+- Global: /snomed/benefits/benefits-global.md
 
-Working Notes 
-NCTS website does have some great references already. (no need for me to invent new; reiterate the existing message works; create where needed only) 
+---
 
-Benefits of SCT: https://www.healthterminologies.gov.au/understanding-clinical-terminology-landing/benefits/
-SI Benefits: https://www.snomed.org/what-is-snomed-ct 
-List of who's known to be using SCT-AU already: https://www.healthterminologies.gov.au/understanding-clinical-terminology-landing/whos-using-snomed-ct-au/ 
-Implementation guide (high-level): https://www.healthterminologies.gov.au/implementing-in-software/getting-started/implementation-whats-involved/ 
-Resources/materials: https://www.healthterminologies.gov.au/document-library/ 
-Other code set relationships (not as relevant here): https://www.healthterminologies.gov.au/understanding-clinical-terminology-landing/the-big-picture-snomed-and-other-code-sets/ 
+## 4) Getting Started (Hands-on)
 
-SEARCH through SP/Slack/Teams for other mentions of Benefits / Use Cases / Case Studies / User Stories.
-Plus general web / articles. 
+**Explore SNOMED CT**
+- Use **Shrimp** to browse concepts, relationships, hierarchies, and AU extension content.  
+  Guide: /tools/shrimp.md
+
+**Query SNOMED CT via NCTS**
+- Try **Postman** with FHIR endpoints and ECL queries.  
+  Quickstart: /quickstarts/postman-ecl.md
+
+**Understand FHIR structures**
+- Learn **CodeSystem**, **ValueSet** (preferred camel case), **ConceptMap**, and bindings.  
+  Tutorial: [/fhir/erminology-basics.md
+
+---
+
+## 5) Hosting & Integration
+
+**Host your own copy of SNOMED CT**
+- **Syndication** to pull releases; **Docker** to run a local **Ontoserver**.
+- Version pinning, indexing, and update strategy.
+
+Guide: /hosting/ontoserver-docker.md
+
+---
+
+## 6) Practical Topics & FAQs
+
+- **SNOMED CT vs ICD** (terminology vs classification; analytics vs reporting).
+- **ValueSet vs Reference Set** (selection for use vs packaged content/metadata).
+- **ECL vs FHIR search** (expressive constraints vs standardized API ops).
+- **Release cadence** (International → AU extension; how updates flow to NCTS).
+- **Licensing & access** (who can use AU content; endpoint access considerations).
+
+FAQs: /guides/faqs.md  
+Glossary: /guides/glossary.md
+
+---
+
+## 7) References
+Each of the more detailed pages in this structure contain direct links to websites with dedicated information on the topic. The links below will take you to the general homepages of these sites if you'd prefer to start there. 
+
+- SNOMED CT basics and benefits: SNOMED Docs, [Benefits overview](https://docs.snomed.org/snomed-ct-practical-guides/snomed-ct-starter-guide/2-snomed-ct-benefits)  
+- SNOMED International value proposition: [snomed.org/value-proposition](https://www.snomed.org/value-proposition)
+
+<details>
+  <summary>WIP TEST</summary>
+  This is some collapsed text?
+</details>
+<details>
+  <summary>REALLY?</summary>
+  .
+</details>
+
+ 
+
+<!-- 
+Working Graveyard (to delete)
+* SEARCH through SP/Slack/Teams for other mentions of Benefits / Use Cases / Case Studies / User Stories.
+* Plus general web / articles.
+* List of who's known to be using SCT-AU already: https://www.healthterminologies.gov.au/understanding-clinical-terminology-landing/whos-using-snomed-ct-au/ 
+* Implementation guide (high-level): https://www.healthterminologies.gov.au/implementing-in-software/getting-started/implementation-whats-involved/ 
+* Resources/materials: https://www.healthterminologies.gov.au/document-library/ 
+* Other code set relationships (not as relevant here): https://www.healthterminologies.gov.au/understanding-clinical-terminology-landing/the-big-picture-snomed-and-other-code-sets/ 
+
+-->
