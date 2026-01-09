@@ -7,7 +7,7 @@ This site is a practical introduction to the **National Clinical Terminology Ser
 
 <details>
   <summary>
-    ## 1) Navigating this site
+    <h1>1) Navigating this site</h1>
   </summary>
   This is a lightweight "website" that's easy to update and share. If you open the README.md file directly then you will see: 
   * A left-hand navigation menu that is a folder/file explorer 
