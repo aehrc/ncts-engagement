@@ -1,19 +1,19 @@
 
 # NCTS Engagement and Education
 
-This site is a practical introduction to the **National Clinical Terminology Service (NCTS)** in Australia, focusing on **SNOMED CT**, **FHIR terminology**, and **terminology servers** (including **Ontoserver**). It includes quickstarts, examples, and references for new starters. Intended to cover the gist of these components you can read this page through in 5 minutes; or use CTRL (or CMD)+F to find keywords of interest.
+This site is a practical introduction to the **National Clinical Terminology Service (NCTS)** in Australia, focusing on the foundations first. Overviews and introductions to Clinical Terminology, its purpose and use cases, and the related software to store, extend and send terminology is covered here. Efforts have been made to include QuickStarts, Examples and References to validated information sources for newcomers. The content is broken down into small snippets so visitors can quickly find what they need.
 
 ---
 
 <details>
   <summary>
-    <h1>1) Navigating this site</h1>
+    <h3>Note: Navigating this site</h3>
   </summary>
-  This is a lightweight "website" that's easy to update and share. If you open the README.md file directly then you will see: 
-  * A left-hand navigation menu that is a folder/file explorer 
-  * A right-hand contents menu that shows the headings in the file that is open 
+  This is a lightweight "website" that's easy to update and share. If you open the [README.md](https://github.com/aehrc/ncts-engagement/blob/main/README.md) file directly then you will see:<br>
+  * A left-hand navigation menu that is a folder/file explorer<br>
+  * A right-hand contents menu that shows the headings in the file that is open<br><br>
 
-  You can also use browser finding (e.g., CTRL-F, CMD-F) to keyword search the file that is open.
+  You can also use browser finding (e.g., CTRL-F, CMD-F) to keyword search the file that is open.<br>
 </details>
 
 --- 
@@ -24,8 +24,8 @@ This site is a practical introduction to the **National Clinical Terminology Ser
 This project is run by **James Grant** — `james.grant@csiro.au`.  
 If you have additional queries or questions, send me an email!
 
-More broadly, the NCTS is supported by the **Australian Digital Health Agency (ADHA)** with input from **CSIRO**.  
-General contact: `ncts@digitalhealth.gov.au`.
+More broadly, the NCTS is supported by the **Australian Digital Health Agency (ADHA)** with input from **CSIRO**.  <br>
+General contact: `help@digitalhealth.gov.au`.
 
 </details>
 
