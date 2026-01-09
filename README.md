@@ -29,8 +29,6 @@ To make a general query please contact: `help@digitalhealth.gov.au`.<br>
 <br>
 </details>
 
-
-
 <details>
 <summary>
   <h4>
@@ -90,12 +88,14 @@ There are also next-generation solutions beyond initial implementation and embed
   Getting Started</h4>
 </summary>
 
-<details>
-  <summary><h5>
-    Nested QuickStart test... <br>
-  </h5></summary>
-</details>
+  <details>
+    <summary><h5>
+      Look at the medication concept 'prednisolone'
+    </h5></summary>
+    Some test content. Visuals. 
+  </details>
 
+<!-- 
 **Explore SNOMED CT**
 - Use **Shrimp** to browse concepts, relationships, hierarchies, and AU extension content.  
   Guide: /tools/shrimp.md
@@ -107,39 +107,50 @@ There are also next-generation solutions beyond initial implementation and embed
 **Understand FHIR structures**
 - Learn **CodeSystem**, **ValueSet**, **ConceptMap**, and bindings.  
   Tutorial: /fhir/terminology-basics.md
+--> 
 
 </details>
 
-<details>
-<summary>6) Hosting & Integration</summary>
-
-**Host your own copy of SNOMED CT**
-- **Syndication** to pull releases; **Docker** to run a local **Ontoserver**.
-- Version pinning, indexing, and update strategy.
-
-Guide: /hosting/ontoserver-docker.md
-
-</details>
 
 <details>
+  
 <summary><h4>
   Popular Questions and Answers (FAQ subset)</h4>
 </summary>
-
-**Clinical terminology versus clinical classification - what's the difference?**
-- 
-
-
+  These Q&As are the ones seen the most often. Of course, there's plenty more curiosity and a full list of queries and inquisitiveness raised is available on the (full) Frequently Asked Questions page.<br>
+  
+  <details>
+    <summary><h5>
+      Clinical terminology versus clinical classification - what's the difference?
+    </h5></summary>
+    Answer to go here.
+  </details>
+  <details>
+    <summary><h5>
+     How do I access the NCTS' clinical terminology information?
+    </h5></summary>
+    Answer to go here.
+  </details>
+  <details>
+    <summary><h5>
+      Where can I learn more?
+    </h5></summary>
+    Answer to go here.
+  </details>
+  
+</details>
+<!-- 
 - **SNOMED CT vs ICD** (terminology vs classification; analytics vs reporting).
 - **ValueSet vs Reference Set** (selection for use vs packaged content/metadata).
 - **ECL vs FHIR search** (expressive constraints vs standardized API ops).
 - **Release cadence** (International → AU extension; how updates flow to NCTS).
 - **Licensing & access** (who can use AU content; endpoint access considerations).
-
+<!-- 
 FAQs: [/guides/faqs.md](/guides/faqs.md)  
 Glossary: /guides/glossary.md
+--> 
 
-</details>
+
 
 <!-- 
 Working Graveyard (to delete)
