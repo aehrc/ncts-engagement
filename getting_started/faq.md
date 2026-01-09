@@ -14,7 +14,7 @@ Both can coexist: SNOMED CT for clinical documentation, ICD for reporting.
 
 </details>
 
----
+
 
 <details>
 <summary>What is a ValueSet vs a Reference Set?</summary>
@@ -27,7 +27,7 @@ Think of ValueSets as “rules for selection” and Reference Sets as “predefi
 
 </details>
 
----
+
 
 <details>
 <summary>What is ECL?</summary>
@@ -42,7 +42,7 @@ ECL is powerful for building ValueSets and performing advanced terminology searc
 
 </details>
 
----
+
 
 <details>
 <summary>How often is SNOMED CT updated?</summary>
@@ -54,7 +54,7 @@ Regular updates ensure new concepts, corrections, and enhancements are available
 
 </details>
 
----
+
 
 <details>
 <summary>Do I need a license to use SNOMED CT?</summary>
@@ -67,7 +67,7 @@ Check NCTS Portal for details.
 
 </details>
 
----
+
 
 <details>
 <summary>What is Ontoserver and why use it?</summary>
@@ -82,7 +82,7 @@ It’s the backbone of NCTS and widely used for interoperability in Australia.
 
 </details>
 
----
+
 
 <details>
 <summary>How does SNOMED CT integrate with FHIR?</summary>
