@@ -6,13 +6,11 @@ This site is a practical introduction to the **National Clinical Terminology Ser
 
 <details>
   <summary>
-    <h4>Note: Navigating this site</h4>
+    <h4>Navigating this site</h4>
   </summary>
   This is a lightweight "website" that's easy to update and share. If you open the <a href="https://github.com/aehrc/ncts-engagement/blob/main/README.md">README.md file</a> directly then you will see:<br>
   * A left-hand navigation menu that is a folder/file explorer<br>
   * A right-hand contents menu that shows the headings in the file that is open<br><br>
-  <br>
-  <img src="https://s3.amazonaws.com/cloud.kumu.io/accounts/204453/1134260/1cd822ce-ffc0-4b8e-a414-bb87975018c7.png" />
   <br>
   You can also use browser finding (e.g., CTRL-F, CMD-F) to keyword search the file that is open.<br>
   <br>
@@ -82,6 +80,7 @@ These seemingly smaller and simpler outcomes of using standardised clinical term
 <br>
 There are also next-generation solutions beyond initial implementation and embedding: clinical decision support systems fed by local and non-local information, complex analytics using the ontological and meta-data of a full clinical terminology and allowing higher quality artificial intelligence (AI) methods through access to standardised (cleaner) training and run-time data 
 
+</details>
 
 <details>
 <summary><h4>
