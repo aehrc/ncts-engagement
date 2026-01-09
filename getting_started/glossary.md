@@ -10,7 +10,7 @@ A comprehensive, multilingual clinical terminology used worldwide. It contains c
 
 </details>
 
----
+
 
 <details>
 <summary>SNOMED CT-AU</summary>
@@ -24,7 +24,7 @@ A terminology for medicines used in Australia. It standardizes medicine names fo
 
 </details>
 
----
+
 
 <details>
 <summary>Concept</summary>
@@ -33,7 +33,7 @@ A unique identifier in SNOMED CT representing a clinical idea (e.g., “Diabetes
 
 </details>
 
----
+
 
 <details>
 <summary>Description</summary>
@@ -42,7 +42,7 @@ The human-readable term associated with a concept (e.g., “Diabetes mellitus”
 
 </details>
 
----
+
 
 <details>
 <summary>Relationship</summary>
@@ -51,7 +51,7 @@ Defines how concepts are connected (e.g., “Is a” hierarchy or attribute rela
 
 </details>
 
----
+
 
 <details>
 <summary>ValueSet</summary>
@@ -60,7 +60,7 @@ A FHIR resource that specifies a set of codes for a particular use case (e.g., a
 
 </details>
 
----
+
 
 <details>
 <summary>Reference Set (Refset)</summary>
@@ -69,7 +69,7 @@ A curated subset of SNOMED CT concepts packaged for distribution. Often includes
 
 </details>
 
----
+
 
 <details>
 <summary>CodeSystem</summary>
@@ -78,7 +78,7 @@ A FHIR resource that defines a terminology system (e.g., SNOMED CT or AMT). It i
 
 </details>
 
----
+
 
 <details>
 <summary>ConceptMap</summary>
@@ -87,7 +87,7 @@ A FHIR resource that maps codes from one system to another (e.g., SNOMED CT to I
 
 </details>
 
----
+
 
 <details>
 <summary>ECL (Expression Constraint Language)</summary>
@@ -96,7 +96,7 @@ A query language for SNOMED CT. It retrieves concepts based on hierarchy and att
 
 </details>
 
----
+
 
 <details>
 <summary>Ontoserver</summary>
