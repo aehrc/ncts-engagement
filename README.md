@@ -6,7 +6,20 @@ This site is a practical introduction to the **National Clinical Terminology Ser
 ---
 
 <details>
-<summary>1) Support</summary>
+  <summary>
+    ## 1) Navigating this site
+  </summary>
+  This is a lightweight "website" that's easy to update and share. If you open the README.md file directly then you will see: 
+  * A left-hand navigation menu that is a folder/file explorer 
+  * A right-hand contents menu that shows the headings in the file that is open 
+
+  You can also use browser finding (e.g., CTRL-F, CMD-F) to keyword search the file that is open.
+</details>
+
+--- 
+
+<details>
+<summary>## 1) Support</summary>
 
 This project is run by **James Grant** — `james.grant@csiro.au`.  
 If you have additional queries or questions, send me an email!
