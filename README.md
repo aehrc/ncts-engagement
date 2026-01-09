@@ -1,5 +1,4 @@
-
-# NCTS Engagement and Education
+<h3>NCTS Engagement and Education</h3>
 
 This site is a practical introduction to the **National Clinical Terminology Service (NCTS)** in Australia, focusing on the foundations first. Overviews and introductions to Clinical Terminology, its purpose and use cases, and the related software to store, extend and send terminology is covered here. Efforts have been made to include QuickStarts, Examples and References to validated information sources for newcomers. The content is broken down into small snippets so visitors can quickly find what they need.
 
@@ -12,82 +11,90 @@ This site is a practical introduction to the **National Clinical Terminology Ser
   This is a lightweight "website" that's easy to update and share. If you open the <a href="https://github.com/aehrc/ncts-engagement/blob/main/README.md">README.md file</a> directly then you will see:<br>
   * A left-hand navigation menu that is a folder/file explorer<br>
   * A right-hand contents menu that shows the headings in the file that is open<br><br>
-
+  <br>
+  <img src="https://s3.amazonaws.com/cloud.kumu.io/accounts/204453/1134260/1cd822ce-ffc0-4b8e-a414-bb87975018c7.png" />
+  <br>
   You can also use browser finding (e.g., CTRL-F, CMD-F) to keyword search the file that is open.<br>
   <br>
-  <br>
-  <a href="#Test subheading">Test to sub</a>
-  <br>
-  <br>
-  <h5>Test subheading</h5>
-  <br> 
 </details>
 
---- 
-
 <details>
-<summary>## 1) Support</summary>
+<summary><h4>Support</h4></summary>
 
-This project is run by **James Grant** — `james.grant@csiro.au`.  
+This microsite is run by **James Grant** — `james.grant@csiro.au`.  
 If you have additional queries or questions, send me an email!
-
-More broadly, the NCTS is supported by the **Australian Digital Health Agency (ADHA)** with input from **CSIRO**.  <br>
-General contact: `help@digitalhealth.gov.au`.
-
+<br>
+More broadly, the NCTS is supported by the **Australian Digital Health Agency (ADHA)** with input from **CSIRO**.<br>
+To make a general query please contact: `help@digitalhealth.gov.au`.<br>
+<br>
 </details>
 
----
+
 
 <details>
-<summary>2) What is the NCTS?</summary>
+<summary>
+  <h4>
+    What is Clinical Terminology?
+  </h4>
+</summary>
 
-The **NCTS** provides national clinical terminology services and content for Australia:
-- **SNOMED CT-AU** (Australian edition and extension).
-- **AMT (Australian Medicines Terminology)** and other curated content.
-- Hosted **terminology services** and **syndication** options for local hosting.
-- Guidance on **FHIR terminology operations** and best-practice use.
-
-See the overview: /snomed/overview.md
-
+Clinical Terminology is a dictionary of terms with mutually understood definitions or meanings.<br>
+Let's start with an analogy.<br>
+Take an English dictionary full of words with definitions that enables all sorts of books being written that English speakers understand (or can lookup).<br>
+Each book is unique and the words are not in the same order. Yet readers can still take words from one book and use those to write another chapter or compare them to a different book.<br>
+<br>
+A Clinical Terminology is the set of shared words/terms for the health system to use to write their records. Which facilitates easier sharing of those records, searching of those records and comparison within and between records.<br>
+<br>
+All clinical or health information systems have terminology built-in - it's impossible to document anything without words/terms.<br>
+The goal now is to use Clinical Terminology (the dictionary of words/terms) that comes from a single source to improve the mutual understanding across the health system.<br>
+<br>
+In Australia, the general purpose Clinical Terminology is SNOMED (Systematized Nomenclature of Medicine) Clinical Terms (SNOMED CT).<br>
+And thus a lot of material and content provided by the NCTS centers on the Australian edition of SNOMED CT (written as SNOMED CT-AU) (though it's not the only clinical terminology by any means!).<br>
+<br>
 </details>
 
----
-
 <details>
-<summary>3) Core Components Introduction</summary>
+  <summary>
+    <h4>
+      What is a Terminology Server?
+    </h4>
+  </summary>
 
-### SNOMED CT (a clinical terminology)
-
-SNOMED CT:
-- Is the most comprehensive and precise, multilingual health terminology in the world.
-- Developed collaboratively to meet diverse global medical needs.
-- Assists with the electronic exchange of clinical health information.
-- Can be mapped to other coding systems (ICD-9, ICD-10) for semantic interoperability.
-- Accepted as a common global language for health terms in over 50 countries.
-- Provides extensive, scientifically validated clinical content.
-
-Learn more: /snomed/snomed-ct.md
-
-### FHIR (a [data] standard)
-*TBC*
-
-### The NCTS (an Australian Government service)
-*TBC*
-
+  A Terminology Server is a specialised software service that manages, publishes, and supports the use of clinical terminologies. It acts as a central, authoritative source for clinical concepts such as diagnoses, procedures, medications, laboratory tests, and observations. This helps ensure that these concepts or terms are represented consistently across systems and health settings.<br>
+  <br>
+  In practice, a terminology server stores standardised vocabularies (for example, SNOMED CT-AU, ICD, LOINC, or medication terminologies), along with their definitions, relationships, and versions. It provides operations or functions that allow clinical systems to look up codes, retrieve human-readable descriptions and translate between different coding systems where required.<br>
+  <br>
+The primary value of a terminology server is **consistency** and **interoperability**. By using a shared service rather than bespoke code lists, healthcare organisations reduce ambiguity, support accurate data exchange, and enable safer clinical decision-making. Terminology servers also simplify maintenance by managing updates and changes centrally, helping digital health systems remain aligned with evolving clinical standards while supporting analytics, reporting, and secondary uses of data.<br>
 </details>
 
----
+<details>
+<summary><h4>
+  Benefits & Use Cases</h4>
+</summary>
+
+To recap the above benefits for clinical terminology and terminology servers: <br>
+- Consistency: the "dictionary" of terms being available across the continuum of systems within and alongside health organisations and solutions
+- Interoperability: more organisations and solutions are using nationally or internationally recognised terminology vocabularies allowing concepts sent out to be understood by other systems and incoming concepts to be understood by the local system
+- (there's a related messaging/exchange standard to this known as "FHIR" though that's for later on) 
+<br>
+These seemingly smaller and simpler outcomes of using standardised clinical terminology and server systems multiplies to more specific outcomes: <br>
+- Less Maintenance: particularly across large or multiple solutions the "clinical jargon" is one spot and updates synchronise through
+- Larger Markets: the entire globe is moving towards standardised terminologies and separating clinical terminology into a terminology server separate to a core system(s) means changing the terminology source can be enough to try a solution in a new region 
+- Easier Tinkering: developed on well-established web standards with a mature community there's lots of references to learn from, people to talk with, and exploration can all occur from within a single web browser (more below!)
+<br>
+There are also next-generation solutions beyond initial implementation and embedding: clinical decision support systems fed by local and non-local information, complex analytics using the ontological and meta-data of a full clinical terminology and allowing higher quality artificial intelligence (AI) methods through access to standardised (cleaner) training and run-time data 
+
 
 <details>
-<summary>4) Benefits & Use Cases</summary>
+<summary><h4>
+  Getting Started</h4>
+</summary>
 
-High-level: /snomed/benefits/general.md  
-Details:
-- Providers: [/snomed/benefits/benefits-providers.md](/snomed/benefits/benefits-providers.mdtients.md
-- Vendors: [/snomed/benefits/benefits-vendors.md](/snomed/benefmed/benefits/benefits-global.md](/snomed/benefits/benefits
+<details>
+  <summary><h5>
+    Nested QuickStart test... <br>
+  </h5></summary>
 </details>
-<details>
-<summary>5) Getting Started</summary>
 
 **Explore SNOMED CT**
 - Use **Shrimp** to browse concepts, relationships, hierarchies, and AU extension content.  
@@ -103,8 +110,6 @@ Details:
 
 </details>
 
----
-
 <details>
 <summary>6) Hosting & Integration</summary>
 
@@ -116,10 +121,14 @@ Guide: /hosting/ontoserver-docker.md
 
 </details>
 
----
-
 <details>
-<summary>7) Practical Topics & FAQs</summary>
+<summary><h4>
+  Popular Questions and Answers (FAQ subset)</h4>
+</summary>
+
+**Clinical terminology versus clinical classification - what's the difference?**
+- 
+
 
 - **SNOMED CT vs ICD** (terminology vs classification; analytics vs reporting).
 - **ValueSet vs Reference Set** (selection for use vs packaged content/metadata).
@@ -131,17 +140,6 @@ FAQs: [/guides/faqs.md](/guides/faqs.md)
 Glossary: /guides/glossary.md
 
 </details>
-
----
-
-<details>
-<summary>8) References</summary>
-
-- SNOMED CT basics and benefits: SNOMED Docs, [Benefits overview](https://docs.snomed.org/snomed-ct-practical-guides/snomed-ct-starter-guide/2-snomed-ct-benefits)  
-- SNOMED International value proposition: [snomed.org/value-proposition](https://www.snomed.org/value-proposition)
-
-</details>
- 
 
 <!-- 
 Working Graveyard (to delete)
