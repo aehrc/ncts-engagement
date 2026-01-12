@@ -34,19 +34,11 @@ To make a general query please contact: `help@digitalhealth.gov.au`.<br>
   </h4>
 </summary>
 
-Clinical Terminology is a dictionary of terms with mutually understood definitions or meanings.<br>
-Let's start with an analogy.<br>
-Take an English dictionary full of words with definitions that enables all sorts of books being written that English speakers understand (or can lookup).<br>
-Each book is unique and the words are not in the same order. Yet readers can still take words from one book and use those to write another chapter or compare them to a different book.<br>
-<br>
-A Clinical Terminology is the set of shared words/terms for the health system to use to write their records. Which facilitates easier sharing of those records, searching of those records and comparison within and between records.<br>
-<br>
-All clinical or health information systems have terminology built-in - it's impossible to document anything without words/terms.<br>
-The goal now is to use Clinical Terminology (the dictionary of words/terms) that comes from a single source to improve the mutual understanding across the health system.<br>
-<br>
-In Australia, the general purpose Clinical Terminology is SNOMED (Systematized Nomenclature of Medicine) Clinical Terms (SNOMED CT).<br>
-And thus a lot of material and content provided by the NCTS centers on the Australian edition of SNOMED CT (written as SNOMED CT-AU) (though it's not the only clinical terminology by any means!).<br>
-<br>
+Clinical Terminology is essentially a dictionary of terms with agreed-upon meanings that enable consistent communication in healthcare.<br><br>
+To illustrate, think of an English dictionary: it contains words and definitions that allow authors to write countless books. Each book is unique, and the words appear in different orders, yet readers can understand them—or look them up—because they share the same dictionary. Readers can even reuse words from one book to write another chapter or compare texts.<br><br>
+Similarly, a Clinical Terminology provides a shared set of words and terms for the health system to document patient records. This common vocabulary makes it easier to share, search, and compare records within and across systems.<br><br>
+Every clinical or health information system relies on terminology—it’s impossible to record anything without words. The goal is to adopt a single, standardized source of terminology to improve mutual understanding across the health system.<br><br>
+In Australia, the primary general-purpose Clinical Terminology is SNOMED CT (Systematized Nomenclature of Medicine – Clinical Terms). Much of the material provided by the National Clinical Terminology Service (NCTS) focuses on the Australian edition, SNOMED CT-AU, though it’s not the only terminology in use.<br><br>
 </details>
 
 <details>
