@@ -12,7 +12,7 @@ This site is a practical introduction to the **National Clinical Terminology Ser
   * A left-hand navigation menu that is a folder/file explorer<br>
   * A right-hand contents menu that shows the headings in the file that is open (needs a click to expand)<br>
   <br>
-  You can also use browser finding (e.g., CTRL-F, CMD-F) to keyword search the file that is open. _Note this only searches the current page, not the entire site._<br>
+  You can also use browser finding (e.g., CTRL-F, CMD-F) to keyword search the file that is open. <i>Note this only searches the current page, not the entire site.</i><br>
   
 </details>
 
@@ -21,7 +21,7 @@ This site is a practical introduction to the **National Clinical Terminology Ser
 
 This microsite is run by James Grant ( `james.grant@csiro.au` ) to support the accessibility and approachability of the NCTS and its services and offerings. It is not a substitute for <a href="https://www.healthterminologies.gov.au/">the NCTS website</a> and its documentation and guides which includes more comprehensive and detailed information. It is intended that if you've recently met one of the NCTS team then this is an initial overview to outline selected core concepts before progressing to richer materials.<br>
 <br>
-Formal contact with the NCTS via the **Australian Digital Health Agency** is available through `help@digitalhealth.gov.au`.<br>
+Formal contact with the NCTS via the Australian Digital Health Agency is available by emailing <a href="mailto:help@digitalhealth.gov.au">help@digitalhealth.gov.au</a>.<br>
 
 </details>
 
@@ -61,8 +61,9 @@ The primary value of a terminology server is consistency and interoperability. B
 To recap the above benefits for clinical terminology and terminology servers: <br>
 - Consistency: the "dictionary" of terms being available across the continuum of systems within and alongside health organisations and solutions
 - Interoperability: more organisations and solutions are using nationally or internationally recognised terminology vocabularies allowing concepts sent out to be understood by other systems and incoming concepts to be understood by the local system
-- _(there's a related messaging/exchange standard to this known as <a href="https://www.hl7.org/fhir/overview.html">"FHIR"</a> though that's for later in this introduction site)_ 
+- _(there's a related messaging/exchange standard to this known as <a href="https://www.hl7.org/fhir/overview.html">"FHIR"</a> though that's to have an introduction written a little later on)_ 
 <br>
+
 These seemingly smaller and simpler outcomes of using standardised clinical terminology and server systems multiplies to more specific outcomes: <br>
 
 - Less Maintenance: particularly across large or multiple solutions the "clinical jargon" is one spot and updates synchronise through
@@ -91,7 +92,7 @@ So, let's dive in and see what it's all about!.
     This image is a snapshot of the term 'labetalol', a heart medication, and where it sits within the structure of SNOMED CT-AU:<br>
     <img src="https://s3.amazonaws.com/cloud.kumu.io/accounts/204453/1134260/7999b714-7179-4ee7-a22d-f87bca36e645.png" />
     <br>
-    <a href="https://ontoserver.csiro.au/shrimp/?concept=46547007&version=http%3A%2F%2Fsnomed.info%2Fsct%2F32506021000036107%2Fversion%2F20251231&valueset=http%3A%2F%2Fsnomed.info%2Fsct%2F32506021000036107%3Ffhir_vs&fhir=https%3A%2F%2Ftx.ontoserver.csiro.au%2Ffhir">Open this for yourself (you will need to agree to usage terms and conditions if you're a first time user of the Shrimp Browswer</a>.
+    <a href="https://ontoserver.csiro.au/shrimp/?concept=46547007&version=http%3A%2F%2Fsnomed.info%2Fsct%2F32506021000036107%2Fversion%2F20251231&valueset=http%3A%2F%2Fsnomed.info%2Fsct%2F32506021000036107%3Ffhir_vs&fhir=https%3A%2F%2Ftx.ontoserver.csiro.au%2Ffhir">Open this for yourself (<i>you will need to agree to usage terms and conditions if you're a first time user of the Shrimp Browswer</i></a>.
     <br>
     <br>
     The elements on the (1) side are 'higher' up the structure. Labetalol is considered an adrenergic receptor antagonist, a beta blocker and is derived from Ethanolamine. Clicking any of those elements (which are concepts too) will show you what is related to them in turn. <br>
@@ -132,7 +133,7 @@ So, let's dive in and see what it's all about!.
     <a href="https://ontoserver.csiro.au/shrimp/?concept=22298006&version=http%3A%2F%2Fsnomed.info%2Fsct%2F32506021000036107%2Fversion%2F20251231&valueset=http%3A%2F%2Fsnomed.info%2Fsct%2F32506021000036107%3Ffhir_vs&fhir=https%3A%2F%2Ftx.ontoserver.csiro.au%2Ffhir">Direct link to myocardial infarction concept in Shrimp</a>.<br>
     <br>
     This example showcases two additional facets of the NCTS' Ontoserver hosted copy of SNOMED CT-AU.<br>
-    - Firstly, most clinical terms have Synonyms that are recognised during searching or filtering. Typing in _"heart attack"_ will find the same concept as _"myocardial infarction"_.<br>
+    - Firstly, most clinical terms have Synonyms that are recognised during searching or filtering. Typing in <i>"heart attack"</i> will find the same concept as <i>"myocardial infarction"</i>.<br>
     <img src="https://s3.amazonaws.com/cloud.kumu.io/accounts/204453/1134260/b0585f41-e201-4867-935f-a7fc6ab71722.png" /><br><br>
     - Secondly, explore as much as you like and you will not find a direct line between "chest pain" (finding/symptom) and "myocardial infarction" (disorder/diagnosis). A clinical terminology is limited to describing all the "stuff" that goes into clinical care and surrounding environment. It does not contain health "knowledge" - such that chest pain could be a sign of a myocardial infarction. That knowledge is captured in training programs, dedicated knowledgebases and decision support systems. And it is deliberately kept separate to terminology (the dictionary of terms).<br>
   </details>
@@ -149,21 +150,21 @@ So, let's dive in and see what it's all about!.
     <br>
     If you're at the stage where you want to skip the graphical and deal in purer data then the NCTS' FHIR Terminology Server (<a href="https://www.ontoserver.csiro.au/site/">Ontoserver</a>) has an open endpoint to enable that. Using the reference set id seen above the following API call will retrieve the same file in a JSON format. This link will work in your browser (though it may render more nicely in a platform like Postman): https://tx.ontoserver.csiro.au/fhir/ValueSet/$expand?url=http://snomed.info/sct?fhir_vs=refset/32570071000036102 <br>
     Even if you're not technical I encourage you to copy and paste this URL into your browser - it just works! One of the benefits to building Australia's clinical terminology with the adjacent Standard, FHIR^, in mind - it adopts general web compliant queries and responses. <br>
-    ^<a href="https://www.hl7.org/fhir/overview.html">Fast Healthcare Interoperable Resource</a> (_a topic that will have a brief introduction available in the next release_)<br>
+    ^<a href="https://www.hl7.org/fhir/overview.html">Fast Healthcare Interoperable Resources</a> (_a topic that will have a brief introduction available in the next release_)<br>
     <br>
     Example of the browser-based return seen at time of writing:<br>
     <img src="https://s3.amazonaws.com/cloud.kumu.io/accounts/204453/1134260/cf7a1f6d-9cd7-4ace-a524-add02d309d60.png" /><br>
   </details>
 
   <details>
-    <summary><h4>
+    <summary><h5>
       After Starting...
-    </h4></summary>
+    </h5></summary>
     This short introduction is only the beginning of working with the NCTS' Clinical Terminiology service and offerings.<br>
     <br>
-    If you'd like to read more about the NCTS and the topics covered here then visit the full NCTS website.<br>
+    If you'd like to read more about the NCTS and the topics covered here then visit <a href="https://www.healthterminologies.gov.au/">the full NCTS website</a>.<br>
     <br>
-    If reading isn't quite enough then please contact us! The NCTS team is happy to answer questions and provide guidance as our vision is _enhancing healthcare delivery in Australia by streamlining the adoption and effective use of clinical terminology, enabling improved patient safety, data interoperability, and healthcare outcomes._ Email the team anytime at `help@digitalhealth.gov.au` and more information or time to meet can be scheduled so we can help and support you.
+    If reading isn't quite enough then please contact us! The NCTS team is happy to answer questions and provide guidance as our vision is <i>enhancing healthcare delivery in Australia by streamlining the adoption and effective use of clinical terminology, enabling improved patient safety, data interoperability, and healthcare outcomes</i>. Email the team anytime at <a href="mailto:help@digitalhealth.gov.au">help@digitalhealth.gov.au</a> and more information or time to meet can be scheduled so we can help and support you.
   </details>
 
 </details>
@@ -173,13 +174,13 @@ So, let's dive in and see what it's all about!.
     Useful Links
   </h4></summary>
   This is a summary of the links provided throughout this site.<br>
-  - <a href="https://github.com/aehrc/ncts-engagement/blob/main/README.md">This README.md file</a> (ideal view) 
-  - <a href="https://www.healthterminologies.gov.au/">The NCTS website</a> 
-  - <a mailto="help@digitalhealth.gov.au">NCTS email (help@digitalhealth.gov.au)</a>
-  - <a href="https://aehrc.csiro.au/">CSIRO (Commonwealth Scientific and Industrial Research Organisation)</a>
-  - <a href="https://www.digitalhealth.gov.au/">Australian Digital Health Agency</a>
-  - <a href="https://www.snomed.org/">SNOMED CT (Systematized Nomenclature of Medicine – Clinical Terms)</a>
-  - <a href="https://ontoserver.csiro.au/shrimp/">Shrimp SNOMED CT-AU Visualiser</a>
+  - <a href="https://github.com/aehrc/ncts-engagement/blob/main/README.md">This README.md file</a> (ideal view) <br>
+  - <a href="https://www.healthterminologies.gov.au/">The NCTS website</a>  <br>
+  - <a href="mailto:help@digitalhealth.gov.au">NCTS email (help@digitalhealth.gov.au)</a> <br>
+  - <a href="https://aehrc.csiro.au/">CSIRO (Commonwealth Scientific and Industrial Research Organisation)</a> <br>
+  - <a href="https://www.digitalhealth.gov.au/">Australian Digital Health Agency</a> <br>
+  - <a href="https://www.snomed.org/">SNOMED CT (Systematized Nomenclature of Medicine – Clinical Terms)</a> <br>
+  - <a href="https://ontoserver.csiro.au/shrimp/">Shrimp SNOMED CT-AU Visualiser</a> <br>
   - <a href="https://www.hl7.org/fhir/overview.html">FHIR (Fast Healthcare Interoperable Resoruces)</a>
   
 </details>
@@ -196,10 +197,11 @@ So, let's dive in and see what it's all about!.
       Clinical terminology (or an ontology) versus clinical classification (or a taxonomy) - what's the difference?
     </h5></summary>
     Taxonomies classify; Ontologies specify.<br><br>
-    A taxonomy is like a filing system - it puts things into categories so they’re easy to find. For example, the Dewey Decimal System groups books by topic, and biology groups animals into classes like mammals or reptiles. Ontologies go deeper: they define how those categories work, what relationships exist, and what rules apply. Think of an ontology as the blueprint for organizing information - it says what kinds of things exist and how they connect.<br>
+    A taxonomy is like a filing system - it puts things into categories so they’re easy to find. For example, the Dewey Decimal System groups books by topic, and biology groups animals into classes like mammals or reptiles. <br>
+    Ontologies go deeper: they define how those categories work, what relationships exist, and what rules apply. Think of an ontology as the blueprint for organizing information - it says what kinds of things exist and how they connect.<br>
     In healthcare: ICD is a taxonomy - it classifies diseases into codes. SNOMED CT is an ontology - it defines clinical concepts, their attributes, and relationships for richer, structured data.<br>
     Thus there is a push to use ontologies (clinical terminology) in clinical information systems so the most precise and information-rich concept is used. Taxonomies (classifications) almost always sacrifice richness or nuance for simplicity.<br>
-    <a href="https://www.forbes.com/sites/cognitiveworld/2019/03/24/taxonomies-vs-ontologies/">Learn more</a> (external link).
+    <a href="https://www.forbes.com/sites/cognitiveworld/2019/03/24/taxonomies-vs-ontologies/">Learn more about taxonomies vs ontologies from this article</a>.
   </details>
   <details>
     <summary><h5>
@@ -212,7 +214,7 @@ So, let's dive in and see what it's all about!.
     <summary><h5>
       Where do I ask questions if I'm stuck? 
     </h5></summary>
-    Contact us! We'd love to help. Email <a mailto="help@digitalhealth.gov.au">help@digitalhealth.gov.au</a> and we will be in touch.<br>
+    Contact us! We'd love to help. Email <a href="mailto:help@digitalhealth.gov.au">help@digitalhealth.gov.au</a> and we will be in touch.<br>
   </details>
   
 </details>
