@@ -92,7 +92,7 @@ So, let's dive in and see what it's all about!.
     This image is a snapshot of the term 'labetalol', a heart medication, and where it sits within the structure of SNOMED CT-AU:<br>
     <img src="https://s3.amazonaws.com/cloud.kumu.io/accounts/204453/1134260/7999b714-7179-4ee7-a22d-f87bca36e645.png" />
     <br>
-    <a href="https://ontoserver.csiro.au/shrimp/?concept=46547007&version=http%3A%2F%2Fsnomed.info%2Fsct%2F32506021000036107%2Fversion%2F20251231&valueset=http%3A%2F%2Fsnomed.info%2Fsct%2F32506021000036107%3Ffhir_vs&fhir=https%3A%2F%2Ftx.ontoserver.csiro.au%2Ffhir">Open this for yourself (<i>you will need to agree to usage terms and conditions if you're a first time user of the Shrimp Browswer</i></a>.
+    <a href="https://ontoserver.csiro.au/shrimp/?concept=46547007&version=http%3A%2F%2Fsnomed.info%2Fsct%2F32506021000036107%2Fversion%2F20251231&valueset=http%3A%2F%2Fsnomed.info%2Fsct%2F32506021000036107%3Ffhir_vs&fhir=https%3A%2F%2Ftx.ontoserver.csiro.au%2Ffhir">Open this for yourself (<i>you will need to agree to usage terms and conditions if you're a first time user of the Shrimp Browser</i></a>.
     <br>
     <br>
     The elements on the (1) side are 'higher' up the structure. Labetalol is considered an adrenergic receptor antagonist, a beta blocker and is derived from Ethanolamine. Clicking any of those elements (which are concepts too) will show you what is related to them in turn. <br>
