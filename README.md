@@ -36,7 +36,7 @@ Clinical Terminology is essentially a dictionary of terms with mutually understo
 To illustrate, think of an English dictionary: it contains words and definitions that allow authors to write countless books. Each book is unique, and the words appear in different orders, yet readers can understand them - or look them up - because they share the same dictionary. Readers can even reuse words from one book to write another chapter or compare texts.<br><br>
 Similarly, a Clinical Terminology provides a shared set of words or terms for the health system to document patient records. This common vocabulary makes it easier to share, search, and compare records within and across systems.<br><br>
 Every clinical or health information system relies on terminology - it is impossible to record anything without words. The goal is to adopt a single, standardised source of terminology to improve shared understanding across the health system to reduce duplicate efforts and data entry and support improved patient experiences and outcomes.<br><br>
-In Australia, the primary general-purpose Clinical Terminology is <a href="https://www.snomed.org/">SNOMED CT</a> (Systematized Nomenclature of Medicine – Clinical Terms). Much of the material provided by the NCTS focuses on the Australian edition, SNOMED CT-AU, though it is not the only terminology in use.<br><br>
+In Australia, the primary general-purpose Clinical Terminology is <a href="https://www.snomed.org/">SNOMED CT</a> (Systematized Nomenclature of Medicine – Clinical Terms). Much of the material provided by the NCTS focuses on the Australian edition, SNOMED CT-AU (which includes the Australian Medicines Terminology (AMT), though it is not the only terminology in use.<br><br>
 </details>
 
 <details>
@@ -107,7 +107,7 @@ So, let's dive in and see what it's all about!.
     <br><br>
     99% of the time all you need to do to see if something exists in SNOMED CT-AU or find out how it connects in the system (and therefore what it is related to) is type if into the search field (1) as soon as <a href="https://ontoserver.csiro.au/shrimp/">Shrimp</a> opens.<br>
     <br>
-    The other 1% might mean changing the CodeSystem (2) to something else. For example, LOINC - a pathology and labratory reference - is another popular terminology in use.<br>
+    The other 1% might mean changing the CodeSystem (2) to something else. For example, LOINC - a pathology and laboratory reference - is another popular terminology in use.<br>
     <br>
   </details>
   <details>
@@ -198,7 +198,7 @@ So, let's dive in and see what it's all about!.
     </h5></summary>
     Taxonomies classify; Ontologies specify.<br><br>
     A taxonomy is like a filing system - it puts things into categories so they’re easy to find. For example, the Dewey Decimal System groups books by topic, and biology groups animals into classes like mammals or reptiles. <br>
-    Ontologies go deeper: they define how those categories work, what relationships exist, and what rules apply. Think of an ontology as the blueprint for organizing information - it says what kinds of things exist and how they connect.<br>
+    Ontologies go deeper: they define how those categories work, what relationships exist, and what rules apply. Think of an ontology as the blueprint for organising information - it says what kinds of things exist and how they connect.<br>
     In healthcare: ICD is a taxonomy - it classifies diseases into codes. SNOMED CT is an ontology - it defines clinical concepts, their attributes, and relationships for richer, structured data.<br>
     Thus there is a push to use ontologies (clinical terminology) in clinical information systems so the most precise and information-rich concept is used. Taxonomies (classifications) almost always sacrifice richness or nuance for simplicity.<br>
     <a href="https://www.forbes.com/sites/cognitiveworld/2019/03/24/taxonomies-vs-ontologies/">Learn more about taxonomies vs ontologies from this article</a>.
