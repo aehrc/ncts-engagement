@@ -219,6 +219,16 @@ So, let's dive in and see what it's all about!.
   
 </details>
 
+<details>
+  <summary><h4>
+    Licencing of this content
+  </h4></summary>
+  # License<br>
+  <br>
+  Copyright (c) 2026 Commonwealth Scientific and Industrial Research Organisation (CSIRO) ABN 41 687 119 230.<br>
+  <br>
+  All materials are licensed under the Creative Commons Attribution 4.0 International License (CC-BY). You may obtain a copy of the CC-BY license at: https://creativecommons.org/licenses/by/4.0/legalcode
+</details>
 <!-- 
 - **SNOMED CT vs ICD** (terminology vs classification; analytics vs reporting).
 - **ValueSet vs Reference Set** (selection for use vs packaged content/metadata).
