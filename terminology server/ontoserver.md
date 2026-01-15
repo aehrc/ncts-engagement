@@ -25,11 +25,11 @@ You can host your own copy of SNOMED CT and other terminologies using **Ontoserv
 
 The technical documentation is available online at https://ontoserver.csiro.au/docs, as well as a publicly accessible test server available for testing at https://r4.ontoserver.csiro.au/fhir (which is a backend service that can be used with the sample requests in our technical documentation, or through our free terminology browser at https://ontoserver.csiro.au/shrimp). The Ontoserver product is distributed as a Docker image, which can be stood up on any machine that supports Docker, including the major cloud providers.
 
-Ontoserver is licensed on a per instance/endpoint, per region/country, annual basis, with the base price of free **in Australia** for **use in healthcare.** 
-For non-Australia-based use or the use for non-healthcare reasons in Australia, licences are available (see Steps to get started below). 
+Ontoserver is licensed on a per instance/endpoint, per region/country, annual basis, with the base price of free <b>in Australia</b>. 
+For non-Australia-based use licences <b>are</b> available (see Steps to get started below). 
 
 The best way to explore Ontoserver is to start with the public end point (details above) though 60 day technical evaluation agreements are available so that you can then deploy your own instance on a trial basis.
 
 **Steps to get started:**<br>
-For Australia-based, Healthcare-related use the Australian Digital Health Agency facilitates licences. Contact `help@digitalhealth.gov.au` to request a licence.<br>
-For all other use cases, contact `ontoserver-support@csiro.au` to request a licence.<br>
+For Australia-based use the Australian Digital Health Agency facilitates licences. Contact <a href="mailto:help@digitalhealth.gov.au">help@digitalhealth.gov.au</a> to request a licence.<br>
+For all other use cases, contact <a href="mailto:ontoserver-support@csiro.au">ontoserver-support@csiro.au</a> to request a licence.<br>
