@@ -37,6 +37,19 @@ To illustrate, think of an English dictionary: it contains words and definitions
 Similarly, a Clinical Terminology provides a shared set of words or terms for the health system to document patient records. This common vocabulary makes it easier to share, search, and compare records within and across systems.<br><br>
 Every clinical or health information system relies on terminology - it is impossible to record anything without words. The goal is to adopt a single, standardised source of terminology to improve shared understanding across the health system to reduce duplicate efforts and data entry and support improved patient experiences and outcomes.<br><br>
 In Australia, the primary general-purpose Clinical Terminology is <a href="https://www.snomed.org/">SNOMED CT</a> (Systematized Nomenclature of Medicine – Clinical Terms). Much of the material provided by the NCTS focuses on the Australian edition, SNOMED CT-AU (which includes the Australian Medicines Terminology (AMT), though it is not the only terminology in use.<br><br>
+
+<details>
+  <summary>
+    <h5>
+    What isn't Clinical Terminology?
+    </h5></summary>
+    Though it's easy to presume there's a deliberate separation of terminology and terms and <b>knowledge.</b><br><br>
+
+    Explore as much as you like and you will <b>not</b> find a direct line between "chest pain" (a finding/symptom) and "myocardial infarction" (a disorder/diagnosis). A clinical terminology is limited to describing all the "stuff" that goes into clinical care and surrounding environment. It does not contain health "knowledge" - such that chest pain could be a sign of a myocardial infarction. That knowledge is captured in training programs, dedicated knowledgebases and decision support systems.<br><br>
+
+    More recent standards are being trialled on providing standardised, structured knowledge patterns that uses clinical terminology as input and can provide information and decision support back.
+</details>
+
 </details>
 
 <details>
@@ -132,10 +145,9 @@ So, let's dive in and see what it's all about!.
     <img src="https://s3.amazonaws.com/cloud.kumu.io/accounts/204453/1134260/e5bca1c3-24bf-4860-8abf-44cd9cd2255b.png" /><br>
     <a href="https://ontoserver.csiro.au/shrimp/?concept=22298006&version=http%3A%2F%2Fsnomed.info%2Fsct%2F32506021000036107%2Fversion%2F20251231&valueset=http%3A%2F%2Fsnomed.info%2Fsct%2F32506021000036107%3Ffhir_vs&fhir=https%3A%2F%2Ftx.ontoserver.csiro.au%2Ffhir">Direct link to myocardial infarction concept in Shrimp</a>.<br>
     <br>
-    This example showcases two additional facets of the NCTS' Ontoserver hosted copy of SNOMED CT-AU.<br>
-    - Firstly, most clinical terms have Synonyms that are recognised during searching or filtering. Typing in <i>"heart attack"</i> will find the same concept as <i>"myocardial infarction"</i>.<br>
+    This example showcases an additional facet of the NCTS' Ontoserver hosted copy of SNOMED CT-AU.<br>
+    - Most clinical terms have Synonyms that are recognised during searching or filtering. Typing in <i>"heart attack"</i> will find the same concept as <i>"myocardial infarction"</i>.<br>
     <img src="https://s3.amazonaws.com/cloud.kumu.io/accounts/204453/1134260/b0585f41-e201-4867-935f-a7fc6ab71722.png" /><br><br>
-    - Secondly, explore as much as you like and you will not find a direct line between "chest pain" (finding/symptom) and "myocardial infarction" (disorder/diagnosis). A clinical terminology is limited to describing all the "stuff" that goes into clinical care and surrounding environment. It does not contain health "knowledge" - such that chest pain could be a sign of a myocardial infarction. That knowledge is captured in training programs, dedicated knowledgebases and decision support systems. And it is deliberately kept separate to terminology (the dictionary of terms).<br>
   </details>
   <details>
     <summary><h5>
@@ -229,26 +241,3 @@ So, let's dive in and see what it's all about!.
   <br>
   All materials are licensed under the Creative Commons Attribution 4.0 International License (CC-BY). You may obtain a copy of the CC-BY license at: https://creativecommons.org/licenses/by/4.0/legalcode
 </details>
-<!-- 
-- **SNOMED CT vs ICD** (terminology vs classification; analytics vs reporting).
-- **ValueSet vs Reference Set** (selection for use vs packaged content/metadata).
-- **ECL vs FHIR search** (expressive constraints vs standardized API ops).
-- **Release cadence** (International → AU extension; how updates flow to NCTS).
-- **Licensing & access** (who can use AU content; endpoint access considerations).
-<!-- 
-FAQs: [/guides/faqs.md](/guides/faqs.md)  
-Glossary: /guides/glossary.md
---> 
-
-
-
-<!-- 
-Working Graveyard (to delete)
-* SEARCH through SP/Slack/Teams for other mentions of Benefits / Use Cases / Case Studies / User Stories.
-* Plus general web / articles.
-* List of who's known to be using SCT-AU already: https://www.healthterminologies.gov.au/understanding-clinical-terminology-landing/whos-using-snomed-ct-au/ 
-* Implementation guide (high-level): https://www.healthterminologies.gov.au/implementing-in-software/getting-started/implementation-whats-involved/ 
-* Resources/materials: https://www.healthterminologies.gov.au/document-library/ 
-* Other code set relationships (not as relevant here): https://www.healthterminologies.gov.au/understanding-clinical-terminology-landing/the-big-picture-snomed-and-other-code-sets/ 
-
--->
