@@ -1,5 +1,3 @@
-[Go up a level](/README.md) | [Go to the table of contents](/README.md)
-
 # FHIR Terminology Basics
 
 **FHIR** (Fast Healthcare Interoperability standard for exchanging healthcare data. Its terminology layer ensures that clinical concepts are represented consistently across systems.
