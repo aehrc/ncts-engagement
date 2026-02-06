@@ -43,11 +43,10 @@ In Australia, the primary general-purpose Clinical Terminology is <a href="https
     <h5>
     What isn't Clinical Terminology?
     </h5></summary>
-    Though it's easy to presume there's a deliberate separation of terminology and terms and <b>knowledge.</b><br><br>
-
+    Though it's easy to presume there's a deliberate separation of terminology and terms and <b>knowledge.</b> <br><br>
     Explore as much as you like and you will <b>not</b> find a direct line between "chest pain" (a finding/symptom) and "myocardial infarction" (a disorder/diagnosis). A clinical terminology is limited to describing all the "stuff" that goes into clinical care and surrounding environment. It does not contain health "knowledge" - such that chest pain could be a sign of a myocardial infarction. That knowledge is captured in training programs, dedicated knowledgebases and decision support systems.<br><br>
-
     More recent standards are being trialled on providing standardised, structured knowledge patterns that uses clinical terminology as input and can provide information and decision support back.
+    
 </details>
 
 </details>
