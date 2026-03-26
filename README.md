@@ -1,5 +1,5 @@
 <h3>NCTS Engagement and Education</h3>
-
+ 
 This site is a short introduction to the **National Clinical Terminology Service (NCTS)** in Australia, focusing on the very basics. Overviews and introductions to Clinical Terminology, its purpose and use cases, and the related software to store, extend and send terminology is covered here. Efforts have been made to include Quick Starts, Examples and References to validated information sources for newcomers. Click the headings below to expand a section of content. Follow the included links for more in-depth information (<i>these will open in the same tab by default</i>).
 
 ---
